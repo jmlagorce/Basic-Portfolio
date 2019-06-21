@@ -31,14 +31,13 @@ h1 {
 
 .contacts {
     float: right;
-    padding: 25px 5px 0px 0px;
-    border-right: 1px lightgray solid;
+    margin: 25px 5px 0px 2px;
     text-decoration: none;
 }
 
 .about {
     float: right;
-    padding: 25px 5px 0px 0px;
+    margin: 25px 5px 0px 2px;
     border-right: 1px lightgray solid;
     text-decoration: none;
     
@@ -46,7 +45,7 @@ h1 {
 
 .portfolio {
     float: right;
-    padding: 25px 0px 0px 0px;
+    margin: 25px 0px 0px 2px;
     border-right: 1px lightgray solid;
     text-decoration: none;
 }
@@ -101,6 +100,7 @@ footer {
   padding: 10px 10px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: solid 2px black;
 }
 
 #message {
@@ -108,6 +108,7 @@ footer {
   padding: 250px 10px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: solid 2px black;
 }
 button {
     float: right;
@@ -115,22 +116,29 @@ button {
 
 #messsage {
     width: 100%;
-    padding: 100px 20px;
+    padding: 10px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    height: 245px;
 }
 
 .imgcontainer {
     float: left;
     padding:20px;
+    position: relative;
 }
 
 .banner {
     background-color: #4aaaa5;
     color: white;
     height: 20px;
-    width: 100%;
     position: absolute;
-    bottom: 5px;
-    right: 50%;
+    bottom: 25%;
+    left: 5%;
+    text-align: center;
+    width: 283px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: large;
 }
+
