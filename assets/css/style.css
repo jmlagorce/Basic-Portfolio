@@ -102,7 +102,7 @@ footer {
   padding: 10px 10px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: solid 2px black;
+  border: solid 1px black;
 }
 
 #message {
@@ -110,7 +110,7 @@ footer {
   padding: 250px 10px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: solid 2px black;
+  border: solid 1px black;
 }
 button {
     float: right;
@@ -128,7 +128,9 @@ button {
     float: left;
     padding:20px;
     position: relative;
+    
 }
+
 
 .banner {
     background-color: #4aaaa5;
@@ -143,4 +145,3 @@ button {
     font-weight: bold;
     font-size: large;
 }
-
